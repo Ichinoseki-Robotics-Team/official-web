@@ -2,7 +2,7 @@
   "name": "official-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ichinoseki-Robotics-Team.github.io/official-web/",
+  "homepage": "https://ichinoseki-robotics-team.github.io/official-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
