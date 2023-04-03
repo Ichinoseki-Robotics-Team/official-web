@@ -7,26 +7,28 @@ import {
 } from "react-router-dom";
 import { About, Contact, Error, Home, Schedule } from "./pages";
 
+const rootUrl = process.env.PUBLIC_URL;
+
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: `${rootUrl}/`,
     element: <Home />,
     errorElement: <Error />,
   },
   {
-    path: "home",
+    path: `${rootUrl}/home`,
     element: <Home />,
   },
   {
-    path: "about",
+    path: `${rootUrl}/about`,
     element: <About />,
   },
   {
-    path: "contact",
+    path: `${rootUrl}/contact`,
     element: <Contact />,
   },
   {
-    path: "schedule",
+    path: `${rootUrl}/schedule`,
     element: <Schedule />,
   },
 ]);
