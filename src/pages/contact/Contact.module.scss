@@ -1,0 +1,103 @@
+.page {
+  width: 100%;
+  margin: 0px;
+  padding: 0px auto;
+  text-align: center;
+
+  .main {
+    width: var(--main-width);
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 100px 20px;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+
+    .title {
+      margin: 0px;
+      color: white;
+      font-size: var(--page-title-font-size);
+    }
+
+    .card {
+      width: 100%;
+      margin: 20px 0px;
+      padding: 20px;
+      background-color: var(--card-bg-color);
+      border-radius: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .icon {
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: auto;
+        display: flex;
+
+        .frame {
+          padding: 30px;
+          background-color: rgb(120, 120, 120);
+          border-radius: 20px;
+          box-sizing: content-box;
+
+          svg {
+            margin: auto;
+            padding: 0px;
+            font-size: 64px;
+          }
+
+          svg.twitter {
+            color: rgb(0, 172, 238);
+          }
+
+          svg.github {
+            color: rgb(23, 21, 21);
+          }
+        }
+      }
+
+      .content {
+        width: 60%;
+        margin: auto;
+
+        h1 {
+          color: white;
+          font-size: var(--sect-title-font-size);
+
+          span {
+            color: orange;
+          }
+        }
+
+        p {
+          color: white;
+          font-size: var(--p-font-size);
+        }
+
+        a {
+          color: orange;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    .main {
+      width: calc(100% - 40px);
+      margin: 0px auto;
+
+      .card {
+        justify-content: center;
+        flex-direction: column;
+
+        .content {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

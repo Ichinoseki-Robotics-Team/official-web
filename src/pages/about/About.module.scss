@@ -1,0 +1,127 @@
+.page {
+  width: 100%;
+  margin: 0px;
+  padding: 0px auto;
+  text-align: center;
+
+  .main {
+    width: clamp(45.5rem, 12.611rem + 68.52vw, 64rem);
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 100px 20px;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+
+    .title {
+      margin: 0px;
+      color: white;
+      font-size: var(--page-title-font-size);
+    }
+
+    .card {
+      width: 100%;
+      margin: 20px 0px;
+      padding: 20px;
+      background-color: var(--card-bg-color);
+      border-radius: 20px;
+      box-sizing: border-box;
+
+      h1 {
+        color: white;
+        font-size: var(--sect-title-font-size);
+
+        span {
+          color: orange;
+        }
+      }
+
+      p {
+        color: white;
+        font-size: var(--p-font-size);
+      }
+
+      li {
+        text-align: left;
+        color: white;
+        font-size: var(--p-font-size);
+
+        span {
+          color: orange;
+        }
+      }
+
+      .slide {
+        width: 100%;
+        aspect-ratio: 1.618;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          margin: auto;
+
+          &.visible {
+            animation-name: slide-in;
+            animation-duration: 0.5s;
+            animation-timing-function: initial;
+            opacity: 1;
+          }
+
+          &.hidden {
+            width: 0px;
+            margin: 0px;
+            padding: 0px;
+            opacity: 0;
+            transition: 0.5s;
+          }
+        }
+      }
+
+      .subcard {
+        margin: 15px 0px;
+        padding: 10px 20px;
+        background-color: var(--subcard-bg-color);
+        border-radius: 20px;
+
+        h2 {
+          color: white;
+          font-size: var(--subsect-title-font-size);
+
+          span {
+            color: orangered;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    .main {
+      width: calc(100% - 40px);
+      margin: 0px auto;
+    }
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(80vw);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
