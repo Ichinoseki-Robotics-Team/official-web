@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdClose, MdMenu } from "react-icons/md";
 import { GiGearHammer } from "react-icons/gi";
 import style from "./PageHeader.module.scss";
+import { Link } from "react-router-dom";
 
 const PageHeader: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,16 +22,24 @@ const PageHeader: React.FC = () => {
       </div>
       <nav className={style[isOpen ? "menu-open" : "menu-close"]}>
         <div className={style["item"]}>
-          <a href="/home">ホーム</a>
+          <Link to={"/home"}>
+            <a>ホーム</a>
+          </Link>
         </div>
         <div className={style["item"]}>
-          <a href="/about">部紹介</a>
+          <Link to={"/about"}>
+            <a>部紹介</a>
+          </Link>
         </div>
         <div className={style["item"]}>
-          <a href="/schedule">年間行事</a>
+          <Link to={"/schedule"}>
+            <a>年間行事</a>
+          </Link>
         </div>
         <div className={style["item"]}>
-          <a href="/contact">連絡/広報</a>
+          <Link to={"/contact"}>
+            <a>連絡/広報</a>
+          </Link>
         </div>
       </nav>
     </header>
