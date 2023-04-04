@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<url>
+  <loc>https://ichinoseki-robotics-team.github.io/official-web</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-04-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://ichinoseki-robotics-team.github.io/official-web/home</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-04-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://ichinoseki-robotics-team.github.io/official-web/about</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-04-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://ichinoseki-robotics-team.github.io/official-web/schedule</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-04-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://ichinoseki-robotics-team.github.io/official-web/contact</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-04-01T00:00:00+09:00</lastmod>
+</url>
+</urlset>
