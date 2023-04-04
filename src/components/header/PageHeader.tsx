@@ -23,22 +23,22 @@ const PageHeader: React.FC = () => {
       <nav className={style[isOpen ? "menu-open" : "menu-close"]}>
         <div className={style["item"]}>
           <Link to={"/home"}>
-            <a>ホーム</a>
+            <a href="/home">ホーム</a>
           </Link>
         </div>
         <div className={style["item"]}>
           <Link to={"/about"}>
-            <a>部紹介</a>
+            <a href="/about">部紹介</a>
           </Link>
         </div>
         <div className={style["item"]}>
           <Link to={"/schedule"}>
-            <a>年間行事</a>
+            <a href="/schedule">年間行事</a>
           </Link>
         </div>
         <div className={style["item"]}>
           <Link to={"/contact"}>
-            <a>連絡/広報</a>
+            <a href="/contact">連絡/広報</a>
           </Link>
         </div>
       </nav>
