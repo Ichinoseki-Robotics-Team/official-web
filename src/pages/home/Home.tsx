@@ -3,6 +3,7 @@ import Logo from "../../assets/logo.png";
 import { PageFooter, PageHeader } from "../../components";
 import style from "./Home.module.scss";
 import { GiHammerNails } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -31,7 +32,9 @@ const Home = () => {
               <span>
                 <GiHammerNails />
               </span>
-              部紹介
+              <Link to={"/about"}>
+                <a href="/about">部紹介</a>
+              </Link>
             </h1>
             <p>
               ロボコン部の詳しい説明を見ることができます。機械班・回路班・制御班などの班分けや、部の歴史などを見ることができます。ぜひ一度ご覧ください。
@@ -42,7 +45,9 @@ const Home = () => {
               <span>
                 <GiHammerNails />
               </span>
-              年間行事
+              <Link to={"/schedule"}>
+                <a href="/schedule">年間行事</a>
+              </Link>
             </h1>
             <p>
               年間の活動について説明しています。毎年どんなことを行っているのか見てみましょう。
@@ -54,7 +59,9 @@ const Home = () => {
               <span>
                 <GiHammerNails />
               </span>
-              連絡/広報
+              <Link to={"/contact"}>
+                <a href="/contact">連絡/広報</a>
+              </Link>
             </h1>
             <p>
               部で管理しているTwitter・GitHub・管理者などが乗っています。なにかあればご連絡ください。

@@ -59,6 +59,13 @@
           color: white;
           font-size: var(--sect-title-font-size);
 
+          a {
+            color: white;
+            &:hover {
+              color: rgb(200, 200, 200);
+            }
+          }
+
           span {
             color: orange;
           }
