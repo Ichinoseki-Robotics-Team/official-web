@@ -41,6 +41,11 @@ const PageHeader: React.FC = () => {
             <a href="/contact">連絡/広報</a>
           </Link>
         </div>
+        <div className={style["item"]}>
+          <Link to={"/supporter"}>
+            <a href="/supporter">サポーター</a>
+          </Link>
+        </div>
       </nav>
     </header>
   );

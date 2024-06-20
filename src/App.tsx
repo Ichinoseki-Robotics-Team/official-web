@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { About, Contact, Error, Home, Schedule } from "./pages";
+import { About, Contact, Error, Home, Schedule, Supporter } from "./pages";
 
 const router = createBrowserRouter(
   [
@@ -25,6 +25,10 @@ const router = createBrowserRouter(
       path: "/schedule",
       element: <Schedule />,
     },
+    {
+      path: "/supporter",
+      element: <Supporter />,
+    }
   ],
   { basename: process.env.PUBLIC_URL }
 );

@@ -4,7 +4,7 @@ import style from "./PageFooter.module.scss";
 const PageFooter = () => {
   return (
     <footer className={style["base"]}>
-      ©2023 Ichinoseki Robotics Team. All Rights Reserved.
+      ©2024 Ichinoseki Robotics Team. All Rights Reserved.
     </footer>
   );
 };
