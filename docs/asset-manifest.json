@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/official-web/static/css/main.50fbb9c7.css",
-    "main.js": "/official-web/static/js/main.f67ef7da.js",
+    "main.css": "/official-web/static/css/main.e2cd8e9b.css",
+    "main.js": "/official-web/static/js/main.3a470aca.js",
     "static/js/787.35e571c0.chunk.js": "/official-web/static/js/787.35e571c0.chunk.js",
+    "static/media/jlcpcb_circuit.png": "/official-web/static/media/jlcpcb_circuit.f139ad1dc6405fe19e0c.png",
+    "static/media/jlcpcb_box.jpg": "/official-web/static/media/jlcpcb_box.886a8a94eb379b45d452.jpg",
     "static/media/img6.jpg": "/official-web/static/media/img6.d3cefc3b9710bfa7ed14.jpg",
     "static/media/logo.png": "/official-web/static/media/logo.94026da015f2d8b8d5d3.png",
     "static/media/img2.png": "/official-web/static/media/img2.5dbd7b562bdae7f9486b.png",
@@ -12,13 +14,14 @@
     "static/media/img1.png": "/official-web/static/media/img1.c7cf7fa8d228e8f934ca.png",
     "static/media/img8.jpg": "/official-web/static/media/img8.947fd00ea9b086aca099.jpg",
     "static/media/img3.jpg": "/official-web/static/media/img3.7bf0216eea2e865922f8.jpg",
+    "static/media/jlcpcb_impl.png": "/official-web/static/media/jlcpcb_impl.951d1282d786fa8c350c.png",
     "index.html": "/official-web/index.html",
-    "main.50fbb9c7.css.map": "/official-web/static/css/main.50fbb9c7.css.map",
-    "main.f67ef7da.js.map": "/official-web/static/js/main.f67ef7da.js.map",
+    "main.e2cd8e9b.css.map": "/official-web/static/css/main.e2cd8e9b.css.map",
+    "main.3a470aca.js.map": "/official-web/static/js/main.3a470aca.js.map",
     "787.35e571c0.chunk.js.map": "/official-web/static/js/787.35e571c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fbb9c7.css",
-    "static/js/main.f67ef7da.js"
+    "static/css/main.e2cd8e9b.css",
+    "static/js/main.3a470aca.js"
   ]
 }
