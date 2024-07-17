@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/official-web/static/css/main.e2cd8e9b.css",
-    "main.js": "/official-web/static/js/main.3a470aca.js",
+    "main.js": "/official-web/static/js/main.ba9047bf.js",
     "static/js/787.35e571c0.chunk.js": "/official-web/static/js/787.35e571c0.chunk.js",
     "static/media/jlcpcb_circuit.png": "/official-web/static/media/jlcpcb_circuit.f139ad1dc6405fe19e0c.png",
     "static/media/jlcpcb_box.jpg": "/official-web/static/media/jlcpcb_box.886a8a94eb379b45d452.jpg",
@@ -17,11 +17,11 @@
     "static/media/jlcpcb_impl.png": "/official-web/static/media/jlcpcb_impl.951d1282d786fa8c350c.png",
     "index.html": "/official-web/index.html",
     "main.e2cd8e9b.css.map": "/official-web/static/css/main.e2cd8e9b.css.map",
-    "main.3a470aca.js.map": "/official-web/static/js/main.3a470aca.js.map",
+    "main.ba9047bf.js.map": "/official-web/static/js/main.ba9047bf.js.map",
     "787.35e571c0.chunk.js.map": "/official-web/static/js/787.35e571c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2cd8e9b.css",
-    "static/js/main.3a470aca.js"
+    "static/js/main.ba9047bf.js"
   ]
 }
