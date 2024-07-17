@@ -33,7 +33,7 @@ const Schedule = () => {
             <br />
           </p>
           <a
-            href="https://jlcpcb.com/"
+            href="https://jlcpcb.com/jp/"
             target="_blank"
             rel="noopener noreferrer"
           >
